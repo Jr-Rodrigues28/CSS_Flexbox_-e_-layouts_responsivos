@@ -1,0 +1,23 @@
+.cabecalho__container {
+    display: flex;  /* Deixa todos os elementos 1 do lado do outro */
+    justify-content: space-between; /*Deixa o espaço entre os icones */
+    align-items: center;  /* Ele colcoca os icones para o centro do container */
+    position: fixed;  /* Fixa e nao desce com a barra de rolagem */
+    top: 0;  /* Onde ele fica fixo */
+}
+
+.cabecalho__pesquisar__item {
+    display: none;  /* Esconde a barra de pesquisa */
+}
+
+.rodape__container {
+    display: flex;  /* Joga as colunas para uma do lado da outra */
+    flex-direction: column;  /* Muda da vertical para horizontal */
+}
+
+@media (min-width: 834px) {
+    .cabecalho__pesquisar__item {
+        display: block;  /* Aqui ele reaparece para telas maiores */
+    }
+}
+

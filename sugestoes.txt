@@ -1,0 +1,1 @@
+diplay: flex; - deixa todos os elementos 1 do lado do outro.

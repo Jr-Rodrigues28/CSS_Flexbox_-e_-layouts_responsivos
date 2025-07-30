@@ -1,3 +1,5 @@
+/* CABECALHO */
+
 .cabecalho__container {
     display: flex;  /* Deixa todos os elementos 1 do lado do outro */
     justify-content: space-between; /*Deixa o espaço entre os icones */
@@ -12,8 +14,10 @@
 
 .rodape__container {
     display: flex;  /* Joga as colunas para uma do lado da outra */
-    flex-direction: column;  /* Muda da vertical para horizontal */
-    flex-wrap: wrap; /* Quebrou o footer em várias colunas */
+    
+    /* flex-direction: column;  Muda da vertical para horizontal
+    flex-wrap: wrap; Quebrou o footer em várias colunas */
+    flex-flow: column wrap; /* É o equivalente as duas propriedades de cima */
 }
 
 @media (min-width: 834px) {

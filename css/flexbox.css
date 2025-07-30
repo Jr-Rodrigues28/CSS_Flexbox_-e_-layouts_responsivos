@@ -13,11 +13,16 @@
 .rodape__container {
     display: flex;  /* Joga as colunas para uma do lado da outra */
     flex-direction: column;  /* Muda da vertical para horizontal */
+    flex-wrap: wrap; /* Quebrou o footer em várias colunas */
 }
 
 @media (min-width: 834px) {
     .cabecalho__pesquisar__item {
         display: block;  /* Aqui ele reaparece para telas maiores */
+    }
+
+    .rodape__container {
+        justify-content: space-between;  /* Deu espaço entre as colunas do footer */
     }
 }
 

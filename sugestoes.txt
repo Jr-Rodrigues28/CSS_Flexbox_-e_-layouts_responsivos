@@ -1,1 +1,3 @@
 diplay: flex; - deixa todos os elementos 1 do lado do outro.
+
+flex-wrap: wrap; - ele quebra em colunas ou linhas depende como ele vai está.

@@ -12,6 +12,16 @@
     display: none;  /* Esconde a barra de pesquisa */
 }
 
+/* SUPERIOR SEÇÃO */
+.superior__secao__container {
+    display: flex;  /* Os elementos ficarão um do lado do outro */
+    align-items: center;  /* Alinha de cima para baixo no eixo principal */
+    white-space: nowrap;  /* Ele alinha palavras dentro do flex */
+    overflow: scroll;  /* Cria uma barra de rolagem  */
+    gap: 0.9375rem; /* O gap aplica espaçamento entre os itens e não na extremidade */
+}
+
+/* FOOTER */
 .rodape__container {
     display: flex;  /* Joga as colunas para uma do lado da outra */
     
@@ -29,4 +39,3 @@
         justify-content: space-between;  /* Deu espaço entre as colunas do footer */
     }
 }
-

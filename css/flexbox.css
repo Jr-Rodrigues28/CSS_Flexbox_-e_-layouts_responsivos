@@ -21,6 +21,19 @@
     width: 100%;  /* Deixa 100% da largura da tela de um lado ao outro */
 }
 
+/* ORGANIZANDO OS ELEMENTOS DENTRO DO MENU MOBILE E TABLETE */
+/* Foi aplicado no pai do MENU que é a ul */
+.menu__lista {
+    display: flex;
+} 
+
+/* Jeito de fazer sem criar class */ 
+.menu__lista:nth-child(),
+.menu__lista:nth-child(),
+.menu__lista:nth-child() {
+    display: none;
+}
+
 /* SUPERIOR SEÇÃO */
 .superior__secao__container {
     display: flex;  /* Os elementos ficarão um do lado do outro */

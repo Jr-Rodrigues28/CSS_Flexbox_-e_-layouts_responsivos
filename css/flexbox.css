@@ -12,6 +12,15 @@
     display: none;  /* Esconde a barra de pesquisa */
 }
 
+/* MOBILE E TABLETE */
+/* Menu aplicado 100% ao elemento pai que é o body */
+.menu__container {
+    position: fixed;  /* Aqui fixa na parte de baixo */
+    bottom: 0%;
+    height: 74px;  /* Diminui a altura */
+    width: 100%;  /* Deixa 100% da largura da tela de um lado ao outro */
+}
+
 /* SUPERIOR SEÇÃO */
 .superior__secao__container {
     display: flex;  /* Os elementos ficarão um do lado do outro */

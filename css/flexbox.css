@@ -61,10 +61,18 @@
 
 /* VIDEO */
 
+/* O dos li, no caso a classe que está no ul */
+.videos__container {
+    display: flex;  /* Deixa todos os videos na mesma linha */
+    flex-wrap: wrap;  /* Divide os videos deixando um embaixo do outro */
+    gap: 10px;
+}
+
 /* Definição da altura e a largura dos videos na li que é o pai */
 .videos__item {
     height: 303px;
     width: 280px;
+    flex-grow: 1;  /* Os videos crescem todos proporcionalmente */
 }
 
 /* FOOTER */

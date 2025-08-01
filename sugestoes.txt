@@ -26,3 +26,21 @@ li.videos__item>div.descricao-video>img+h3+p = Estrutura para fazer
                 <p></p>
             </div>
         </li>
+
+Display: grid; - display: grid. O grid é muito eficiente também nesse caso, quando precisamos 
+organizar muitos itens em níveis diferentes dentro de um container.
+
+flex-grow: 1;
+flex-grow(crescimento): 1; - Isso significa que quando o espaço disponível é distribuído, o que tiver 
+o grow maior no item flexível terá o dobro de espaço que os outros. Tb chega uma hora que ela não tem 
+como crescer mais e não aceita crescer negativamente. Posso aplicar o grow em cada uma das li separadamente.
+
+flex-shrink: 1;
+flex-shrink
+A propriedade 'flex-shrink' é ideal para ser aplicada quando queremos encolher elementos à medida que o seu container 
+diminui de largura.
+Diferente da propriedade flex-grow, que quanto maior o valor inserido, mais um item poderá crescer. Com a propriedade 
+flex-shrink quanto maior o valor inserido, mais este item irá encolher em relação aos seus itens irmãos.
+
+
+

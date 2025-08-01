@@ -34,7 +34,7 @@
     align-self: center;  /* Posso alinhar cada um dos itens da maneira que eu quiser */
 }
 
-/* Alicando flex no pai da tag i e span */
+/* Aplicando flex no pai da tag i e span */
 /* Fazendo com que os inoes fique fique abaixo dos nomes que estão no span */
 .menu__itens {
     display: flex;
@@ -43,6 +43,7 @@
 }
 
 /* Jeito de fazer sem criar class */ 
+/* Esse 2 3 4 são reeferente ao bloco de listas */
 .menu__lista:nth-child(2),
 .menu__lista:nth-child(3),
 .menu__lista:nth-child(4) {
@@ -67,12 +68,84 @@
     flex-flow: column wrap; /* É o equivalente as duas propriedades de cima */
 }
 
+
+/* MEDIA QUERY */
+
 @media (min-width: 834px) {
+
+    /* CABEÇALHO */
     .cabecalho__pesquisar__item {
         display: block;  /* Aqui ele reaparece para telas maiores */
     }
 
+
+    /* MENU LATERAL ADICIONADO NA ATIVIDADE EXTRA */
+    .menu__container {
+        left: 0;
+        height: auto;
+        width: 74px;
+        top: 80px;
+    }
+
+    .menu__lista {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 15px;
+        gap: 33px;
+    }
+
+    /* RODAPÉ */
     .rodape__container {
         justify-content: space-between;  /* Deu espaço entre as colunas do footer */
+    }
+}
+
+/* RESPONSIVIDADE PARA DESKTOP */
+
+@media(min-width: 1400px) {
+
+    /* MENU LATERAL */
+
+    .menu__container {
+        width: 239px;
+        overflow: scroll;
+    }
+    .menu__lista:nth-child(2),
+    .menu__lista:nth-child(3),
+    .menu__lista:nth-child(4) {
+        display: flex;
+    }
+
+    .menu__lista {
+        height: auto;
+        padding: 20px 17px 20px 15px;
+        gap: 15px;  /* diminue os esaços das li, ou seja, do nome no menu */
+    }
+
+    .menu__itens {
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;  /* Centraliza os icones e textos */
+    }
+
+    .menu__lista:nth-child(3) {
+        flex-direction: column-reverse;  /* Reverteu o terceiro bloco da lista */
+    }
+
+    /* Definindo a ordem dos elementos da li */
+    .jogos {
+        order: 3;
+    }
+
+    .filmes {
+        order: 2;
+    }
+
+    .premium {
+        order: 1;  /*  */
+    }
+
+    .maispagina {
+        order: 4;  /* Video Premium */
     }
 }

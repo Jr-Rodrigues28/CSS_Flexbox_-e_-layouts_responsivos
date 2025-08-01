@@ -5,6 +5,7 @@ O FLEXbOX não é feito pra formatar texto.
 
 O O gap aplica espaçamento entre os itens e não na extremidade.
 
+align-items - centraliza os icones com o texto, tanto vertical como na horizontal.
 align-self - posso ainhar cada um dos itens seja em menu, etc da maneira que eu quiser.
 Ex: posso ter um menu e deixar apenas 1 item diferenciado.
 

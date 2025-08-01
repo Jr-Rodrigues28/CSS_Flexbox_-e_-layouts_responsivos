@@ -17,3 +17,12 @@ Tag CODE - É como se fosse uma span
 
 i - é utilizado para add icones tb.
 Ex: <i class="icone__nerd icone-item"></i>
+
+li.videos__item>div.descricao-video>img+h3+p = Estrutura para fazer
+<li class="videos__item">
+            <div class="descricao-video">
+                <img src="" alt="">
+                <h3></h3>
+                <p></p>
+            </div>
+        </li>

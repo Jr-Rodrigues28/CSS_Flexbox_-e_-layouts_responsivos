@@ -59,7 +59,16 @@
     gap: 0.9375rem; /* O gap aplica espaçamento entre os itens e não na extremidade */
 }
 
+/* VIDEO */
+
+/* Definição da altura e a largura dos videos na li que é o pai */
+.videos__item {
+    height: 303px;
+    width: 280px;
+}
+
 /* FOOTER */
+
 .rodape__container {
     display: flex;  /* Joga as colunas para uma do lado da outra */
     

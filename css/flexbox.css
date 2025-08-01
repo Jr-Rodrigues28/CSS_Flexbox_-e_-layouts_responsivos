@@ -55,7 +55,7 @@
     display: flex;  /* Os elementos ficarão um do lado do outro */
     align-items: center;  /* Alinha de cima para baixo no eixo principal */
     white-space: nowrap;  /* Ele alinha palavras dentro do flex */
-    overflow: scroll;  /* Cria uma barra de rolagem  */
+    overflow-x: auto;  /* Cria uma barra de rolagem  */
     gap: 0.9375rem; /* O gap aplica espaçamento entre os itens e não na extremidade */
 }
 
@@ -125,7 +125,7 @@
 
     .menu__container {
         width: 239px;
-        overflow: scroll;
+        overflow-x: auto;
     }
     .menu__lista:nth-child(2),
     .menu__lista:nth-child(3),

@@ -4,3 +4,6 @@ flex-wrap: colunm wrap; - é como se fosse flex-direction: colunm; e o flex-wrap
 O FLEXbOX não é feito pra formatar texto.
 
 O O gap aplica espaçamento entre os itens e não na extremidade.
+
+align-self - posso ainhar cada um dos itens seja em menu, etc da maneira que eu quiser.
+Ex: posso ter um menu e deixar apenas 1 item diferenciado.

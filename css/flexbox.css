@@ -25,12 +25,19 @@
 /* Foi aplicado no pai do MENU que é a ul */
 .menu__lista {
     display: flex;
+    justify-content: space-around;  /* Espaçamento maior entre os itens */
+    height: 100%;
 } 
 
+/* Aplico a centralização em todos os li */
+.menu__lista li {
+    align-self: center;  /* Posso alinhar cada um dos itens da maneira que eu quiser */
+}
+
 /* Jeito de fazer sem criar class */ 
-.menu__lista:nth-child(),
-.menu__lista:nth-child(),
-.menu__lista:nth-child() {
+.menu__lista:nth-child(2),
+.menu__lista:nth-child(3),
+.menu__lista:nth-child(4) {
     display: none;
 }
 

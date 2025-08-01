@@ -7,3 +7,12 @@ O O gap aplica espaçamento entre os itens e não na extremidade.
 
 align-self - posso ainhar cada um dos itens seja em menu, etc da maneira que eu quiser.
 Ex: posso ter um menu e deixar apenas 1 item diferenciado.
+
+Tag CODE - É como se fosse uma span
+<p>
+  A função <code>selectAll()</code> destaca todo o texto no campo de entrada
+  então o usuário pode, por exemplo, copiar ou deletar o texto.
+</p>
+
+i - é utilizado para add icones tb.
+Ex: <i class="icone__nerd icone-item"></i>

@@ -34,6 +34,14 @@
     align-self: center;  /* Posso alinhar cada um dos itens da maneira que eu quiser */
 }
 
+/* Alicando flex no pai da tag i e span */
+/* Fazendo com que os inoes fique fique abaixo dos nomes que estão no span */
+.menu__itens {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;  /* Descolo os icones dos nomes */
+}
+
 /* Jeito de fazer sem criar class */ 
 .menu__lista:nth-child(2),
 .menu__lista:nth-child(3),
